@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #c8d6e5;
+}
+
+.sign-in-card {
+    width: 35%;
+    height: 80vh;
+    display: flex;
+    min-width: 200px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 25px;
+    background-color: #fff;
+}
+
+.main-logo {
+    width: 5vw;
+    margin-bottom: 50px;
+}
+
+.sign-in-form {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sign-in-input {
+    width: 60%;
+    margin: 5px;
+    border: none;
+    outline: none;
+    padding: 5px;
+    font-size: 1em;
+    text-align: center;
+    font-weight: 400;
+    border-bottom: 1px solid #576574 !important;
+}
+
+.sign-in-button {
+    color: #fff;
+    width: 110px;
+    height: 35px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 50px;
+    font-weight: 300;
+    transition: 0.75s;
+    border-radius: 25px;
+    background-color: #eb2f06;
+}
+
+.sign-in-button:hover {
+    color: #d2dae2;
+    background-color: #e55039;
+}
+
+.cancel-link {
+    color: #ee5253;
+    font-size: 14px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.cancel-link:hover {
+    text-decoration: underline;
+}

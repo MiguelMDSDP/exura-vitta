@@ -12,7 +12,7 @@ body {
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    background-color: #485460;
+    background-color: #c8d6e5;
 }
 
 .main-image {
@@ -21,7 +21,7 @@ body {
 }
 
 .sign-in-button {
-    color: #d2dae2;
+    color: #c8d6e5;
     margin: 15px;
     width: 115px;
     height: 40px;
@@ -38,15 +38,4 @@ body {
 .sign-in-button:hover {
     color: #fff;
     background-color: #e55039;
-}
-
-.sign-up-link {
-    color: #fa8231;
-    font-size: 16px;
-    transition: 0.25s;
-    text-decoration: none;
-}
-
-.sign-up-link:hover {
-    text-decoration: underline;
 }
