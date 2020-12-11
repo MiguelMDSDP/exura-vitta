@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <exam>
+        <date>23/04/2018</date>
+        <laboratory>Radio Clínica Dom Pedrito</laboratory>
+        <patient>Miguel Martins dos Santos</patient>
+        <examType>Raio X</examType>
+        <result>Torção leve nos tendões do pulso direito</result>
+    </exam>
+</data>

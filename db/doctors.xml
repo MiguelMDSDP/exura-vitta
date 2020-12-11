@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <doctor>
+        <name>Gilberto Garcez</name>
+        <address>Barão do Upacaraí, 1781</address>
+        <phone>(53) 99957-2887</phone>
+        <email>gibagarcez@gmail.com</email>
+        <speciality>Pediatria</speciality>
+        <CRM>54008</CRM>
+    </doctor>
+    <doctor>
+        <name>Éber Lopes</name>
+        <address>Bernardino Ângelo, 1043</address>
+        <phone>(53) 99988-7766</phone>
+        <email>eberloper@gmail.com</email>
+        <speciality>Geriatria</speciality>
+        <CRM>54009</CRM>
+    </doctor>
+    <doctor>
+        <name>Marício Garcez</name>
+        <address>Sete de Setembro, 674</address>
+        <phone>(53) 99968-4936</phone>
+        <email>ciciogarcez@gmail.com</email>
+        <speciality>Clínica Geral</speciality>
+        <CRM>54007</CRM>
+    </doctor>
+</data>

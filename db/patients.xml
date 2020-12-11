@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <patient>
+        <name>Miguel Martins dos Santos</name>
+        <address>Cel. Longuinho, 1856</address>
+        <phone>(53) 99957-2887</phone>
+        <email>miguelmartinsdossantos@gmail.com</email>
+        <sex>Masculino</sex>
+        <age>22</age>
+        <CPF>031.449.120-18</CPF>
+    </patient>
+    <patient>
+        <name>Andressa Luiza Eisermann</name>
+        <address>Linha Almeida, 133</address>
+        <phone>(53) 99987-6677</phone>
+        <email>ninaluizae8@gmail.com</email>
+        <sex>Feminino</sex>
+        <age>23</age>
+        <CPF>033.112.786-09</CPF>
+    </patient>
+</data>

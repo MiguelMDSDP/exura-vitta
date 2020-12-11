@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <laboratory>
+        <name>Radio Clínica Dom Pedrito</name>
+        <address>Barão do Upacaraí, 1789</address>
+        <phone>(53) 3243-8028</phone>
+        <email>atendimento@radioclinicadp.com</email>
+        <examTypes>
+            <examType>Raio X</examType>
+            <examType>Ecografia</examType>
+            <examType>Ressonância</examType>
+        </examTypes>
+        <CNPJ>65.759.278/0001-92</CNPJ>
+    </laboratory>
+</data>

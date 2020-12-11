@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <appointment>
+        <date>10/08/2019</date>
+        <doctor>Maurício Garcez</doctor>
+        <pacient>Miguel Martins dos Santos</pacient>
+        <prescription>Predisin 8 em 8h</prescription>
+        <observations>Reação alérgica a picada de aranha.</observations>
+    </appointment>
+    <appointment>
+        <date>11/09/2020</date>
+        <doctor>Éber Lopes</doctor>
+        <pacient>Andressa Luiza Eisermann</pacient>
+        <prescription>Sem receita</prescription>
+        <observations>Revisão de exames rotineiros. Tudo certo com a paciente.</observations>
+    </appointment>
+    <appointment>
+        <date>25/04/2018</date>
+        <doctor>Maurício Garcez</doctor>
+        <pacient>Miguel Martins dos Santos</pacient>
+        <prescription>Flanax 6h em 6h</prescription>
+        <observations>Torção no pulso direito jogando Padel.</observations>
+    </appointment>
+</data>

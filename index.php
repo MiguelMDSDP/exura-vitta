@@ -9,7 +9,7 @@
 </head>
 <body>
     <img class="main-image" src="./public/assets/images/main.png" />
-    <a href="./public/pages/sign-in.html">
+    <a href="./public/pages/sign-in.php">
         <button class="sign-in-button">
             Entrar
         </button>
