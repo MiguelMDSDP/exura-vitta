@@ -7,6 +7,8 @@ class Doctor {
     private $email;
     private $speciality;
     private $CRM;
+    private $username;
+    private $password;
 
     function __construct(
         $_name,
@@ -14,7 +16,9 @@ class Doctor {
         $_email,
         $_phone,
         $_speciality,
-        $_CRM
+        $_CRM,
+        $_username,
+        $_password
     ){
         $this->name = $_name;
         $this->address = $_address;
@@ -22,6 +26,8 @@ class Doctor {
         $this->phone = $_phone;
         $this->speciality = $_speciality;
         $this->CRM = $_CRM;
+        $this->username = $_username;
+        $this->password = $_password;
     }
 
     function setName($_name) { $this->name = $_name; }
@@ -30,6 +36,8 @@ class Doctor {
     function setEmail($_email) { $this->email = $_email; }
     function setSpeciality($_speciality) { $this->speciality = $_speciality; }
     function setCRM($_CRM) { $this->CRM = $_CRM; }
+    function setUsername($_username) { $this->username = $_username; }
+    function setPassword($_password) { $this->password = $_password; }
 
     function getName($_name) { return $this->name; }
     function getAddress($_address) { return $this->address; }
@@ -37,6 +45,8 @@ class Doctor {
     function getEmail($_email) { return $this->email; }
     function getSpeciality($_speciality) { return $this->speciality; }
     function getCRM($_CRM) { return $this->CRM; }
+    function getPassword($_password) { return $this->password; }
+    function getUsername($_username) { return $this->username; }
 
     function showData() {
         echo "<br> ---- DOCTOR ---- <br>";
@@ -46,6 +56,8 @@ class Doctor {
         echo "-> E-mail: " . $this->email . "<br>";
         echo "-> Speciality: " . $this->speciality . "<br>";
         echo "-> CRM: " . $this->CRM . "<br>";
+        echo "-> Username: " . $this->username . "<br>";
+        echo "-> Password: " . $this->password . "<br>";
     }
 }
 

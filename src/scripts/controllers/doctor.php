@@ -9,7 +9,9 @@ $newEmail = "";
 $newPhone = "";
 $newSpeciality = "";
 $newCRM = "";
-$isAttrSwitched = False;
+$newUsername = "";
+$newPassword = "";
+$newAttr = "";
 
 function fstart($parser, $element_name, $element_attrs) {
     if ($element_name == "DOCTOR") {
@@ -19,9 +21,10 @@ function fstart($parser, $element_name, $element_attrs) {
         $GLOBALS['newPhone'] = "";
         $GLOBALS['newSpeciality'] = "";
         $GLOBALS['newCRM'] = "";
+        $GLOBALS['newUsername'] = "";
+        $GLOBALS['newPassword'] = "";
     } else if ($element_name != "DATA" && $element_name != $GLOBALS['newAttr']) {
         $GLOBALS['newAttr'] = $element_name;
-        $GLOBALS['isAttrSwitched'] = True;
     }
 }
 
@@ -33,7 +36,9 @@ function fstop($parser, $element_name) {
             $newEmail,
             $newPhone,
             $newSpeciality,
-            $newCRM
+            $newCRM,
+            $newUsername,
+            $newPassword
         );
         array_push($GLOBALS['doctors'], $newDoctor);
     }
@@ -58,6 +63,12 @@ function fchar($parser, $data) {
             break;
         case "CRM":
             $newCRM = $newCRM . $data;
+            break;
+        case "USERNAME":
+            $newUsername = $newUsername . $data;
+            break;
+        case "PASSWORD":
+            $newPassword = $newPassword . $data;
             break;
         default:
             break;
